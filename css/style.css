@@ -1,3 +1,51 @@
+body{
+    background-color: #fbfbfb;
+}
+
 header{
     background-image: url('../assets/header-back.png');
+    background-size:cover;
+    height: 560px;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.navlink{
+    font-weight: bold;
+    opacity: white;
+    color: #fbfbfb;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navlink:hover{
+    color: #fbfbfb;
+    background-color: #32b3c6;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.navlink.active{
+    background-color: #32b3c6;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) { /*sm*/
+    #navbarCollapse{
+        width: 100%;
+        background-color: #056d7c;
+        opacity: 0.6;
+    }
+}
+
+
+.nav-item{
+    text-align: center;
 }

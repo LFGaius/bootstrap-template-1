@@ -2,6 +2,7 @@ body{
     background-color: #fbfbfb;
 }
 
+/*start header*/
 header{
     background-image: url('../assets/header-back.png');
     background-size:cover;
@@ -37,15 +38,70 @@ header{
     opacity: 0.8;
 }
 
-@media (max-width: 768px) { /*sm*/
+
+
+
+.nav-item{
+    text-align: center;
+}
+
+/*end header*/
+
+/*start goal block*/
+.goal-text{
+    width: 40%;
+    font-family: Ink Free, cursive;/*Gabriola*/
+    font-size: 70px;
+    color: #00424b;
+    text-align: center;
+}
+
+.goal-text .quotes{
+    font-size: 140px;
+    font-weight: bold;
+    color: #00424b;
+}
+
+.goal-image{
+    width: 400px;
+    height: 400px;
+}
+
+/*end goal block*/
+
+
+/*start motto block*/
+
+.motto{
+    background-image: url('../assets/motto-back.jpg');
+    background-size: cover;
+    margin-top: 140px;
+}
+
+.motto-items{
+    width: 80%;
+    margin: auto;
+    min-height: 200px;
+}
+
+/*end motto block*/
+
+/*sm*/
+@media (max-width: 768px) { 
+    /*start header*/
     #navbarCollapse{
         width: 100%;
         background-color: #056d7c;
         opacity: 0.6;
     }
-}
-
-
-.nav-item{
-    text-align: center;
+    /*end header*/
+    /*start goal block*/
+    .goal-text{
+        width: 100%;
+        font-family: Ink Free, cursive;/*Gabriola*/
+        font-size: 70px;
+        color: #00424b;
+        text-align: center;
+    }
+    /*end goal block*/
 }

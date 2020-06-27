@@ -82,6 +82,16 @@ header{
     width: 80%;
     margin: auto;
     min-height: 200px;
+    color: #fbfbfb;
+}
+
+.motto-item .text{
+    font-size: 50px;
+}
+
+.motto-item .icon{
+    font-size: 120px;
+    opacity: 0.9;
 }
 
 /*end motto block*/
@@ -104,4 +114,15 @@ header{
         text-align: center;
     }
     /*end goal block*/
+
+    /*start motto block*/
+
+    .motto-items{
+        width: 100%;
+        margin: auto;
+        min-height: 200px;
+        color: #fbfbfb;
+    }
+
+    /*end motto block*/
 }

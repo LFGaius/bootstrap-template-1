@@ -149,6 +149,7 @@ header{
 /*start team block*/
 
 .team{
+    padding-bottom: 100px;
     width: 100%;
     background-image: url('../assets/team-back.png');
     background-size:  cover;
@@ -171,6 +172,17 @@ header{
 }
 
 /*end team block*/
+
+/*start footer block*/
+
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #001013;
+}
+
+
+/*end footer block*/
 
 
 /*sm*/
@@ -195,8 +207,10 @@ header{
 
     .team{
         width: 100%;
+        padding-bottom: 100px;
+        
         background-image: url('../assets/team-back-mobile.png');
-        background-size:  cover;
+        background-size:cover;
         margin-top: 140px;
     }
 

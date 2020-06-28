@@ -96,6 +96,56 @@ header{
 
 /*end motto block*/
 
+/*start motto block*/
+.activities-items{
+    width: 80%;
+    margin: auto;
+    min-height: 200px;
+    color: #fbfbfb;
+}
+
+
+.activities{
+    margin-top: 150px;
+}
+
+.activities-item{
+    border-radius: 15px;
+    overflow:hidden;
+    box-shadow: -7px 7px 0px 0px rgba(0, 0, 0, 0.01);
+    transition-duration: 1s;
+    /* transform:translate(0px,100px); */
+    /* transform:scale(1,0.5); */
+}
+
+.activities-item:hover{
+    border-radius: 15px;
+    overflow:hidden;
+    box-shadow: -7px 7px 0px 0px rgba(0, 0, 0, 0.05);
+    /* transform:translate(0px,100px); */
+    transform:scale(1.1,1.1);
+    transition-duration: 1s;
+}
+
+.activity-text-zone{
+    background-image: url('../assets/activity-base-back.png');
+    background-size: cover;
+    height:150px;
+    width: 300px;
+}
+
+.activity-text-zone .title{
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+.activity-image-zone{
+    overflow: hidden;
+    width: 300px;
+}
+
+/*end motto block*/
+
 /*sm*/
 @media (max-width: 768px) { 
     /*start header*/

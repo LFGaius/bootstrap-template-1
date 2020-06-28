@@ -96,7 +96,7 @@ header{
 
 /*end motto block*/
 
-/*start motto block*/
+/*start activities block*/
 .activities-items{
     width: 80%;
     margin: auto;
@@ -144,7 +144,7 @@ header{
     width: 300px;
 }
 
-/*end motto block*/
+/*end activities block*/
 
 /*sm*/
 @media (max-width: 768px) { 
@@ -164,15 +164,4 @@ header{
         text-align: center;
     }
     /*end goal block*/
-
-    /*start motto block*/
-
-    .motto-items{
-        width: 100%;
-        margin: auto;
-        min-height: 200px;
-        color: #fbfbfb;
-    }
-
-    /*end motto block*/
 }

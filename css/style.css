@@ -176,11 +176,41 @@ header{
 /*start footer block*/
 
 footer{
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     background-color: #001013;
 }
 
+footer form{
+    max-width: 400px;
+} 
+
+footer label{
+    opacity: 0.7;
+} 
+
+footer .btn{
+    background-color:#23a8bb;
+} 
+
+footer .form-control{
+    background-color: #056d7b;
+    color: #001013;
+    border:none;
+} 
+
+footer .title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.social-icon{
+    margin-left: 15px;
+    opacity: 0.7;
+}
 
 /*end footer block*/
 

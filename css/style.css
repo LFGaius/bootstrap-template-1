@@ -28,29 +28,18 @@ header{
     margin-right: 20px;
 }
 
-.navlink{
+.nav-link{
     font-weight: bold;
-    opacity: white;
     color: #fbfbfb;
     display: inline-block;
     padding: 10px;
     font-size: 20px;
+    font-family: Ink Free, cursive;/*Gabriola*/
 }
 
-.navlink:hover{
-    color: #fbfbfb;
-    background-color: #32b3c6;
-    text-decoration: none;
-    opacity: 0.8;
+.nav-link:hover,.nav-link.active{
+    background-color: rgba(255,255,255,0.2);
 }
-
-.navlink.active{
-    background-color: #32b3c6;
-    opacity: 0.8;
-}
-
-
-
 
 .nav-item{
     text-align: center;
@@ -143,6 +132,7 @@ header{
     background-size: cover;
     height:150px;
     width: 300px;
+    font-family: Ink Free, cursive;/*Gabriola*/
 }
 
 .activity-text-zone .title{
@@ -165,6 +155,7 @@ header{
     background-image: url('../assets/team-back.png');
     background-size:  cover;
     margin-top: 140px;
+    font-family: Ink Free, cursive;/*Gabriola*/
 }
 
 .team-item .team-item-text-zone{
@@ -179,7 +170,7 @@ header{
     text-align: center;
     color: #02424b;
     height: 260px;
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 /*end team block*/
@@ -189,7 +180,10 @@ header{
 footer{
     min-height: 400px;
     width: 100%;
-    background-color: #001013;
+    background-image: url('../assets/footer-back.png');
+    background-size: cover;
+    font-family: Ink Free, cursive;/*Gabriola*/
+    /* background-color: rgba(0, 16, 19, 0.7); */
 }
 
 footer form{
@@ -202,11 +196,13 @@ footer label{
 
 footer .btn{
     background-color:#23a8bb;
+    opacity: 0.7;
 } 
 
 footer .form-control{
-    background-color: #056d7b;
+    background-color: rgba(5, 109, 123, 0.5);
     color: #001013;
+    font-weight: bold;
     border:none;
 }
 
@@ -222,6 +218,7 @@ footer .title{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: #fbfbfb;
 }
 
 .social-icon{

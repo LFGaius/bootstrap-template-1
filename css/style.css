@@ -197,6 +197,12 @@ footer .form-control{
     background-color: #056d7b;
     color: #001013;
     border:none;
+}
+
+footer .form-control:focus{
+    background-color: #056d7b;
+    color: #001013;
+    border:none;
 } 
 
 footer .title{
